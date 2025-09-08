@@ -1,0 +1,67 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+
+# Build output
+.next/
+dist/
+out/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sw?
+*.sublime-workspace
+*.sublime-project
+
+# Dependency directories
+.pnp/
+.pnp.js
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Typescript cache
+*.tsbuildinfo
+
+# Tailwind/JIT cache
+.tailwind/
+tailwind.config.js.backup.*
+
+# Next.js export directory
+out/
+
+# vercel
+.vercel/
+
+# shadcn/ui cache/config (if any future caching is added)
+.shadcn/
+
+# Turbo repo (if using Turborepo)
+turbo/
+
+# Coverage (if using Jest or similar)
+coverage/
+
+# Storybook (if using)
+storybook-static/
+
+# Bun (if using bun instead of npm/pnpm/yarn)
+.bun/
